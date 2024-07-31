@@ -1,0 +1,108 @@
+/** @format */
+
+@import "https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --mainBG: hsl(217, 54%, 11%);
+  --cardBG: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+  --para: hsl(215, 51%, 70%);
+  --eth: hsl(178, 100%, 50%);
+  font-size: 18px;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--mainBG);
+  width: 100%;
+  height: 100vh;
+  /* font-size: 18px; */
+}
+
+/* CLASS FORMATTING BELOW */
+
+.card {
+  width: 20rem;
+  background-color: var(--cardBG);
+  margin: 7rem auto;
+  padding: 0.1rem;
+  border-radius: 2rem;
+  /* border: 1px solid white; */
+}
+.nft img {
+  width: 17rem;
+  margin: 1rem auto;
+  display: flex;
+  border-radius: 0.5rem;
+}
+
+.bottom {
+  padding: 1rem;
+}
+
+.header {
+  color: var(--white);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.para {
+  color: var(--para);
+  font-weight: 300;
+  line-height: 1.5;
+  padding: 1rem 2rem 1rem 0;
+}
+
+.stats {
+  align-items: space-between;
+}
+
+.amount {
+  display: inline-flex;
+  color: var(--eth);
+}
+.time {
+  display: inline-flex;
+  color: var(--para);
+}
+
+.avatar img {
+  width: 2rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 1rem 0 1rem 0;
+}
+
+.creator-words {
+  display: inline-flex;
+  /* justify-self: center;
+  justify-items: center;
+  justify-content: center; */
+}
+
+.about {
+  color: var(--para);
+}
+
+.name {
+  color: var(--white);
+}
+
+.attribution a {
+  text-align: center;
+}
+
+/* CLASS FORMATTING ABOVE */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* UTILITY CLASSES BELOW */
+
+.rel {
+  position: relative;
+}
