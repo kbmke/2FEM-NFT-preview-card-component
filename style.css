@@ -42,7 +42,8 @@ body {
 }
 
 .bottom {
-  padding: 1rem;
+  padding: 1.5rem;
+  align-items: center;
 }
 
 .header {
@@ -76,13 +77,16 @@ body {
   border: 1px solid white;
   border-radius: 50%;
   margin: 1rem 0 1rem 0;
+  /* justify-content: center; */
+  padding: 0 auto;
 }
-
+.avatar {
+  align-items: center;
+  border-top: 1px solid var(--line);
+}
 .creator-words {
   display: inline-flex;
-  /* justify-self: center;
-  justify-items: center;
-  justify-content: center; */
+  align-items: center;
 }
 
 .about {
@@ -93,7 +97,7 @@ body {
   color: var(--white);
 }
 
-.attribution a {
+.attribution {
   text-align: center;
 }
 
