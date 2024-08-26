@@ -56,11 +56,13 @@ body {
   color: var(--para);
   font-weight: 300;
   line-height: 1.5;
-  padding: 1rem 2rem 1rem 0;
+  padding: 1rem 1rem 1rem 0;
 }
 
 .stats {
   align-items: space-between;
+  display: flex;
+  padding-bottom: 1rem;
 }
 
 .amount {
@@ -68,8 +70,10 @@ body {
   color: var(--eth);
 }
 .time {
-  display: inline-flex;
+  display: flex;
   color: var(--para);
+  justify-content: right;
+  /* border: 1px solid white; */
 }
 
 .avatar img {
