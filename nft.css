@@ -26,13 +26,14 @@ body {
   background-color: var(--cardBG);
   margin: 3rem auto;
   border-radius: 20px;
+  border: 1px solid white;
 }
 .nft {
-  width: 20rem;
+  width: 21rem;
   margin: 2rem auto;
 }
 .nft img {
-  width: 20rem;
+  width: 21rem;
   border-radius: 10px;
   margin: 2rem auto 0;
 }
